@@ -1,0 +1,24 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}    
+header {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding-top: 10px;
+}
+main{
+    max-width: 1041px;
+    margin: 50px auto; 
+}
+h1 {
+    background-color:#C4C4C4;
+    color: #005677;
+}
+h2 {background-color: #C4C4C4;
+    color: #005677;
+}    
+footer {background-color: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+}
