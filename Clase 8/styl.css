@@ -14,6 +14,7 @@ h1{
     display: block;
     padding: 15px;
     letter-spacing: 2px;
+    font-family: cursive;
 }   
 .menu {font-weight: bold; 
     font-size: medium; 
@@ -25,7 +26,7 @@ h1{
     padding-left:40px; 
     padding-right:40px;
     display: inline-flex;
-
+    border-radius: 10px;
 }
 
 body{
@@ -51,3 +52,13 @@ footer{
     padding: 10px;
     color:white;
 }
+h2{
+    color: #eb7171;
+}
+.acerdademi {
+    text-align: justify;
+    font-size: x-large;
+    font-family: cursive;
+    padding-inline: 100px;
+}
+    
