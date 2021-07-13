@@ -175,6 +175,7 @@ header nav::before{
     font-weight: 900;
     font-size: 2rem;
     color: white; 
+    
 }
 #productos {
     display:flex;
@@ -190,5 +191,5 @@ header nav::before{
 .logoinvertido {
     order: -1;
 }
-}
+
 

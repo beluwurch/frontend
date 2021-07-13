@@ -131,7 +131,10 @@ nav ul li a:hover::before{
     border-right: 10px solid rgb(66,139,202);
     border-bottom: 10px solid rgb(202, 66, 129);
     border-left: 10px solid rgba(66,139,202,.2);
-    animation: girar .5s infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: .8s;
+    animation-name: girar;
  }
     @keyframes girar {
         0% {
@@ -139,7 +142,7 @@ nav ul li a:hover::before{
           }
         
           100% {
-            transform: rotate(360deg);
+            transform: rotate(1turn);
           }
     }
 
