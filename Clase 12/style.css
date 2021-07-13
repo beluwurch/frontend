@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background-color: #D1891C;
+    font-size: 15px;
+    padding: 10px 903px 10px 10px;
+    height: 38px;
+    
+}
+#tituloheroes{
+    background-color:  #00669F;
+    font-size: 40px;
+    height: 101px;
+    padding: 28px 868px 26px 28px;
+    color: white;
+}
+#tituloheroes h1{
+    font-size: 40px;
+
+}
+.superheroe {
+    position: relative;
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 580px;
+}
+.fondo {
+    position: absolute;
+    height: 250px;
+
+}
+.cara {
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    height: 118px; 
+    top: 190px;  
+    left: 120px;
+    
+}
+.corazon {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+h3 {
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    font-style: normal;}
+
+}
+.ver{
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 15px;
+    height: 49px;
+    width: 128px;
+    position: absolute;
+    text-align: center;
+    
+}
+.ver p{
+    font-size: 15px;
+    padding-top: 17px;
+}
+
+
+

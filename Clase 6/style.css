@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Roboto-Regular' ;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* BODY */
+body{
+    font-family: 'Roboto-Regular', sans-serif ;
+    font-size: 15px;
+}  
+div.superior{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap:15px;
+    height: 20px;
+    justify-content: space-between;
+}
+    
+div.superior *{
+    padding-right: 15px;
+    padding-left: 25px;
+} 
+    
+div.superior div.opciones ul{
+    text-align: right;
+    display: flex;
+}
+
+/* HEADER */
+header {
+    align-items: center;
+    background-color: #F0A83E;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;    
+    z-index: 1px;
+}
+.logo {
+    position: absolute;
+    left: 40px;
+    top: 19px;
+}
+
+.menu span {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    left: 1140px;  
+    padding-inline-end: 10px;
+}   
+/* MAIN */
+.banner {
+    background-image: url(./img/Imagen\ grande.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    height: 408px;
+}
+div.banner ul{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    justify-content: center;
+    list-style-type: none;
+    margin: 12px
+}
+.li1 {
+    background-color: white;
+    border-radius: 2.5px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0px 15px;
+    width: 365px;
+}
+.li2 {
+    font-size: 16px;
+}
+.li3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    padding: 5px;
+    width: 141px;
+    height: 49px ;
+    color: white;
+}
+.patita, h1, .opciones1{
+    text-align: center;
+}
+.patita {
+    padding-top: 10px;
+}
+
+h1 {
+    color: #3C2313;
+    font-weight: bold;
+    line-height: 47px;
+    font-size: 40px;
+    left: 510px;
+    top: 586px;
+}
+.opciones1 {
+    color: #666666;
+    left: 630px;
+    top: 650px;
+} 
+
+#productos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #3C2313;
+    top: 150px;
+    padding-bottom: 10px;
+}
+#contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    padding: 23px 70px;
+}
+
+#contactoDatos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contactoDatos>section{ /* localidad, telefono, correo */
+    display: flex;
+    gap: 25px;
+}
+
+#contactoDatos>section>section{ /* titulo, detalles */
+    display: flex;
+    flex-direction: column;
+}
+
+#contactoTitulo{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10px;
+}
+#contactoDetalle{
+    font-size: 10px;
+    font-weight: 700;
+    color: #8A8787;
+}
+
+footer {
+    background-color: #222222;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) { 
+div.superior{
+    display: none;
+}
+header nav::before{         
+    content: '\f0c9';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2rem;
+    color: white; 
+}
+#productos {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+#contacto {
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.logoinvertido {
+    order: -1;
+}
+}
+

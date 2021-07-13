@@ -1,17 +1,19 @@
-body{
-    background-image: url(./img/fondo.jpg)  ;
-    background-size:100%;
-    background-repeat: no-repeat;
-}
 header{
     padding-top: 80px;
-    text-align: center;   
+    text-align: center; 
+
 }
 .foto {
     border-radius: 30px;
     border-style: solid;
     border-color: black;
 }
+body{
+    background-image: url(./img/fondo.jpg)  ;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
 h1 {
     font-family: cursive;
     font-size: 50px;
@@ -25,11 +27,12 @@ p {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    margin: 0px;
     font-weight: 200;
     font-size: 30px;
     padding: 5px;
     color:white;
+
 }
 ul#lista li {
     font-weight: 200;

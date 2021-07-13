@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px 903px 10px 10px;
+    height: 38px;
+    
+}
+
+#tituloheroes{
+    background-color:  #00669F;
+    font-size: 40px;
+    height: 101px;
+    padding: 28px 868px 26px 28px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+#tituloheroes h1{
+    font-size: 40px;
+}
+
+body{
+    height:100vh;
+}
+
+.superheroe{
+    display: inline-block;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 120px;
+    
+}
+.arriba{
+    position: relative;
+
+}
+.fondo{
+        width: 300px;
+        height: 193px;
+    }
+.cara{
+    position: absolute;
+    border-radius: 100%;
+    left: 90px;
+    top: 120px;  
+    width: 120px;
+    height: 118px;
+    z-index: 10;
+}
+.corazon{
+    position:absolute;
+    width: 30px;
+    top: 15px;
+    left: 20px;
+}
+
+
+.abajo{
+    background-color: #F3F3F3;
+    height: 336px;
+    position: relative;
+    width: 300px;
+}
+h3{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    padding: 74px 89px 227px 89px;
+}
+
+#harleyquinn{
+    padding: 74px 35px 227px 55px;
+}
+.descripcion{
+    position: absolute;
+    font-size: 16px;
+    color: #333333;
+    padding: 119px 17px 104px 16px;
+    text-align: justify;
+}
+.ver{
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 15px;
+    height: 49px;
+    width: 128px;
+    position: absolute;
+    text-align: center;
+    margin-top: 270px;
+    margin-left: 86px;
+    
+}
+.ver p{
+    font-size: 15px;
+    padding-top: 17px;
+}
+
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px 671px 16px 16px;
+
+}
+
